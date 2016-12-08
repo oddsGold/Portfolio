@@ -1,0 +1,155 @@
+@media screen and (max-width: 1200px) {
+    .intro-text > h1 {
+        font-size: 50px;
+    }
+    .intro-text {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .pushy {
+        width: 200px;
+    }
+    .pushy-right {
+        -webkit-transform: translate3d(200px, 0, 0);
+        -ms-transform: translate3d(200px, 0, 0);
+        transform: translate3d(200px, 0, 0);
+    }
+    .menu-btn {
+        font-size: 40px;
+        top: 30px;
+        right: 30px;
+    }
+    .iconbox {
+        margin: 0 10px;
+    }
+    .iconbox > p {
+        padding: 20px 10px 30px;
+    }
+    .iconbox:hover {
+        transform: scale(1.05);
+    }
+    .grid-icon {
+        float: none;
+        width: 50%!important;
+        margin: 0 auto;
+        padding: 0 20px 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .servicebox {
+        float: none;
+        width: auto;
+        margin: 20px 50px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .intro-text > h1 {
+        font-size: 40px;
+    }
+    .intro-text > p {
+        font-size: 40px;
+    }
+    .grid-icon {
+        width: 70%!important;
+    }
+    .skill-row {
+        width: 50%;
+    }
+    .about-text {
+        padding: 0 20px;
+    }
+}
+
+
+@media  screen and (max-width: 520px) {
+    .intro {
+        background: url(../img/intro-bg.jpg) no-repeat 15% 50%;
+    }
+    .contact-location {
+        width: 50%;
+    }
+    .contact-location:last-child {
+        width: 100%;
+    }
+    .form-control {
+        width: 75%;
+    }
+    .message-name {
+        float: none;
+        width: 100%;
+        margin: 25px 0;
+    }
+    .title-text {
+        padding: 20px 10px;
+    }
+    .color-title:after {
+        bottom: 140px;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .pushy {
+        display: none;
+    }
+    .navigation {
+        display: block;
+    }
+}
+@media  screen and (max-width: 480px) {
+    .intro-text > h1 {
+        font-size: 35px;
+    }
+    .intro-text > p {
+        font-size: 35px;
+    }
+    .grid-icon {
+        width: 90%!important;
+    }
+    .about-nav > a {
+        margin: 15px 45px;
+    }
+    .servicebox {
+        margin: 20px 20px;
+    }
+}
+
+
+@media  screen and (max-width: 400px) {
+    .intro-text > h1 {
+        font-size: 20px;
+    }
+    .intro-text > p {
+        font-size: 20px;
+    }
+    .contact-location {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media  screen and (max-width: 357px) {
+    .intro {
+        background: url(../img/intro-bg.jpg) no-repeat 15% 75%;
+    }
+    .intro-text {
+        margin-top: 320px;
+    }
+    .about-nav > a {
+        margin: 15px 17px;
+    }
+    .grid-icon {
+        width: 100%!important;
+    }
+    .eff-one {
+        height: 220px;
+    }
+}
+
+
+
